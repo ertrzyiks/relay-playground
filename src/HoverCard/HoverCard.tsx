@@ -6,7 +6,7 @@ export function HoverCard(props: {
 }) {
   return (
     <Tooltip.Root>
-      <Tooltip.Trigger render={<span>{props.children}</span>} />
+      <Tooltip.Trigger render={<div>{props.children}</div>} />
       <Tooltip.Portal>
         <Tooltip.Positioner sideOffset={10}>
           <Tooltip.Popup className="bg-gray-300 text-gray-800 px-2 py-1">

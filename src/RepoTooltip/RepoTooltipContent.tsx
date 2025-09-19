@@ -9,7 +9,7 @@ import type { RepoTooltipContent_details$key } from "./__generated__/RepoTooltip
 import { RepoTooltipHovercardQuery } from "./data";
 import type { data_hovercardQuery } from "./__generated__/data_hovercardQuery.graphql";
 
-export function RepoTooltipContent(props: {
+export default function RepoTooltipContent(props: {
   repoRef: PreloadedQuery<data_hovercardQuery>;
 }) {
   const data = usePreloadedQuery(RepoTooltipHovercardQuery, props.repoRef);

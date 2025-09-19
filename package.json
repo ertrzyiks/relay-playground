@@ -12,6 +12,7 @@
   "dependencies": {
     "@base-ui-components/react": "1.0.0-beta.3",
     "@tailwindcss/vite": "^4.1.13",
+    "@tanstack/react-virtual": "^3.13.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-relay": "^20.1.1",
